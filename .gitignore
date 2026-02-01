@@ -1,0 +1,41 @@
+# Client (Next.js)
+client/node_modules/
+client/.next/
+client/.env.local
+client/out/
+client/.env*.local
+
+# Server (Django)
+server/venv/
+server/__pycache__/
+server/**/__pycache__/
+server/*.pyc
+server/**/*.pyc
+server/*.pyo
+server/**/*.pyo
+server/*.pyd
+server/**/*.pyd
+server/db.sqlite3
+server/db.sqlite3-journal
+server/.env
+server/*.log
+server/**/*.log
+server/*.egg-info/
+server/**/*.egg-info/
+server/dist/
+server/build/
+server/.Python
+server/media/
+server/staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# General
+.DS_Store
+*.log
+Thumbs.db
