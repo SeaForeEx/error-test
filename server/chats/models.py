@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class Chat(models.Model):
+    guest = models.CharField(max_length=50)
+    chat_date = models.DateTimeField("date chatted")
+    notes = models.TextField()  # TextField allows for long-form notes
